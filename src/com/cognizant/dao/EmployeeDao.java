@@ -6,7 +6,8 @@ import com.cognizant.model.Employee;
 
 public interface EmployeeDao {
 
-	void readDataFile();
-	void printAllData(List<Employee> employeeList);
+	public List<Employee> readDataFile();
+
+	public void printAllData(List<Employee> employeeList);
 
 }

@@ -6,14 +6,19 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private String gender;
+	private Gender gender;
 	private String departmentName;
-	private String salary;
+	private float salary;
 	private String ssn;
 	private String streetAddress;
 	private String city;
 	private String state;
 	private String zip;
+	private boolean isCountryDomain;
+
+	public enum Gender {
+		Male, Female;
+	}
 
 	public String getEmployeeId() {
 		return employeeId;
@@ -47,11 +52,11 @@ public class Employee {
 		this.email = email;
 	}
 
-	public String getGender() {
+	public Gender getGender() {
 		return gender;
 	}
 
-	public void setGender(String gender) {
+	public void setGender(Gender gender) {
 		this.gender = gender;
 	}
 
@@ -63,11 +68,11 @@ public class Employee {
 		this.departmentName = departmentName;
 	}
 
-	public String getSalary() {
+	public float getSalary() {
 		return salary;
 	}
 
-	public void setSalary(String salary) {
+	public void setSalary(float salary) {
 		this.salary = salary;
 	}
 
@@ -111,12 +116,20 @@ public class Employee {
 		this.zip = zip;
 	}
 
+	public boolean isCountryDomain() {
+		return isCountryDomain;
+	}
+
+	public void setCountryDomain(boolean isCountryDomain) {
+		this.isCountryDomain = isCountryDomain;
+	}
+
 	public Employee() {
 		super();
 	}
 
-	public Employee(String employeeId, String firstName, String lastName, String email, String gender,
-			String departmentName, String salary, String ssn, String streetAddress, String city, String state,
+	public Employee(String employeeId, String firstName, String lastName, String email, Gender gender,
+			String departmentName, float salary, String ssn, String streetAddress, String city, String state,
 			String zip) {
 		super();
 		this.employeeId = employeeId;
