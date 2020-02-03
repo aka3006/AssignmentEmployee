@@ -1,7 +1,2 @@
 Employee Id                  Employee Name                         Gender                Department Name                         Salary                                                                          Address 
 
-01-1474096                   Cecilla Rene                         Female                          Legal                      106229.91                                       2530 Truax Lane, San Francisco, California
-02-9140974                   Leoine Crush                         Female             Product Management                      133676.05                                     8344 Corry Point, Wilmington, North Carolina
-98-3688056                 Kerry Dearlove                         Female                          Sales                      132591.27                                      6 High Crossing Junction, Palm Bay, Florida
-42-8883780                   Cris Lindner                           Male                       Services                      146729.38                             21550 Spaight Park, Washington, District of Columbia
-30-1524620                 Rianon Brabban                         Female                        Support                      127780.02                                       86627 Hollow Ridge Court, Cincinnati, Ohio
